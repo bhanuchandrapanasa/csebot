@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern><set>haihello</set></pattern>
+    <template>
+        <random>
+            <li>hai! it's nice to see you</li>
+            <li>hello! it's nice to see you</li>
+        </random>
+    </template>
+  </category>
+  <category>
+      <pattern><set>morning</set></pattern>
+      <template>Good morning..have a nice day..</template>
+  </category>
+  <category>
+      <pattern>^ <set>haihello</set> ^ <set>morning</set></pattern>
+      <template>
+          <random>
+              <li>Hai! Good morning</li>
+              <li>Hello! Good morning</li>
+          </random>
+      </template>
+  </category>
+  <category>
+      <pattern><set>noon</set></pattern>
+      <template>Good afternoon... it's pleasure to see you</template>
+  </category>
+  <category>
+      <pattern>^ <set>haihello</set> ^ <set>noon</set></pattern>
+      <template>
+          <random>
+              <li>Hai! Good afternoon</li>
+              <li>Hello! Good afternoon</li>
+          </random>
+      </template>
+  </category>
+  <category>
+      <pattern><set>evening</set></pattern>
+      <template>Good evening... It's great to see you</template>
+  </category>
+  <category>
+      <pattern>^ <set>haihello</set> ^ <set>evening</set></pattern>
+      <template>
+          <random>
+              <li>Hai! Good evening</li>
+              <li>Hello! Good evening</li>
+          </random>
+      </template>
+  </category>
+  <category>
+      <pattern><set>night</set></pattern>
+      <template>Good night.. Sweet dreams</template>
+  </category>
+  <category>
+      <pattern><set>end</set></pattern>
+      <template>
+      Good bye friend
+      Hope we should meet again</template>
+  </category>
+  <category>
+      <pattern>^ <set>end</set> ^ <set>night</set></pattern>
+      <template>Good night</template>
+  </category>
+  <category>
+      <pattern>^ <set>night</set> ^ <set>end</set></pattern>
+      <template>Good night</template>
+  </category>
+  <category>
+      <pattern><set>thankgreet</set></pattern>
+      <template>
+          <random>
+              <li>you are always welcome</li>
+              <li>pleasure is mine friend</li>
+          </random>
+      </template>
+  </category>
+  <category>
+      <pattern>i am *</pattern>
+      <template>hello <star/>. I am bot</template>
+  </category>
+  <category>
+      <pattern>^ <set>haihello</set> ^ i am *</pattern>
+      <template>hello friend! i am bot</template>
+  </category>
+  <category>
+      <pattern><set>haihello</set> ^ <set>howu</set></pattern>
+      <template>
+          <random>
+              <li>
+                  hello! i am fine
+                  what do you want?
+              </li>
+              <li>
+                  hai! i am good
+                  what do you want?
+              </li>
+          </random>
+      </template>
+  </category>
+  <category>
+      <pattern><set>howu</set></pattern>
+      <template>am doing well</template>
+  </category>
+  <category>
+      <pattern><set>complements</set></pattern>
+      <template>Thank you very much friend :)</template>
+  </category>
+  <category>
+      <pattern><set>questions</set></pattern>
+      <template><p>I am a BOT.</p><p>Created by PAVANRAVALI and CHANDRA</p></template>
+  </category>
+  <category>
+      <pattern>who is pavanravali</pattern>
+      <template><img src="https://2.bp.blogspot.com/-w_m2Cl3b420/WgaL0k-kRwI/AAAAAAAAGsI/qRRWksmn0Osf0g9-qwky2hNR-JLddFwDgCLcBGAs/s320/IMG_20170306_180524_611%2B-%2BCopy.jpg" /><p>Name : Andavarapu Pavan Kumar</p><p>Branch : CSE</p><p>Regd. No. : 160101120054</p><p>Contact No. : 6300394363</p>
+      </template>
+  </category>
+  <category>
+      <pattern><set>sayday</set></pattern>
+      <template><date format="%A"/></template>
+  </category>
+  <category>
+      <pattern><set>saydate</set></pattern>
+      <template><date format="%D"/></template>
+  </category>
+  <category>
+      <pattern><set>sayyear</set></pattern>
+      <template><date format="%Y"/></template>
+  </category>
+  
+  <category>
+      <pattern><set>csehod</set></pattern>
+      <template>Dr. Vamsikrihna Mangalampalli</template>
+  </category>
+  <category>
+      <pattern><set>csefaculty</set></pattern>
+      <template><li>Dr. Vamsikrishna Mangalampalli - HOD</li><li>Santoshhandra Rao Karanam</li><li>Avinash Alugolu</li><li>Sesibhusan Maharana</li><li>Chandankumar Giri</li><li>Manojkumar Kar</li></template>
+  </category>
+  
+  <category>
+      <pattern><set>aboutcsesantosh</set></pattern>
+      <template><img src="https://3.bp.blogspot.com/-Z94QbiONsVc/WoQtaC0BjFI/AAAAAAAAHaQ/jV1pcuOyrVU28aNYbJFI6HrvPD7VtvAEACLcBGAs/s320/csesem4.png"/><p>Karanam Santoshchandra Rao</p><P>CSE-Assistant Professor</P><p>Contact no. : 9391909292</p><p>email id: santoshchandraraokaranam@cutm.ac.in</p></template>
+  </category>
+  <category>
+      <pattern><set>csesantoshcontacts</set></pattern>
+      <template>9391909292</template>
+  </category>
+  <category>
+      <pattern><set>csesantoshmail</set></pattern>
+      <template>santoshchandraraokaranam@cutm.ac.in</template>
+  </category>
+  <category>
+      <pattern><set>csesantoshinformation</set></pattern>
+      <template><li>contact no. : 9391909292</li><li>email id : santoshchandrarao@cutm.ac.in</li><li>address : pillivaari street, pathapatnam</li></template>
+  </category>
+  <category>
+<pattern><set>csesantoshschedule</set></pattern>
+<template>tell me on which day u want in <set name="topic">santosh sir schedule</set></template>
+</category>
+<topic name="santosh sir schedule">
+        <category>
+<pattern>today</pattern>
+<template><srai><date format="%A"/></srai></template>
+</category>
+    <category>
+<pattern>sunday</pattern>
+<template>holiday</template>
+</category>
+<category>
+<pattern>monday</pattern>
+<template>busy</template>
+</category>
+<category>
+<pattern>tuesday</pattern>
+<template>free</template>
+</category>
+<category>
+    <pattern>wednesday</pattern>
+    <template>wednesday schedule</template>
+</category>
+<category>
+    <pattern>thursday</pattern>
+    <template>thursday schedule</template>
+</category>
+<category>
+    <pattern>friday</pattern>
+    <template>friday schedule</template>
+</category>
+<category>
+    <pattern>saturday</pattern>
+    <template>saturday schedule</template>
+</category>
+</topic>
+
+<category>
+    <pattern>santosh sir sunday schedule</pattern>
+    <template>sunday schedule</template>
+</category>
+<category>
+    <pattern>santosh sir monday schedule</pattern>
+    <template>monday schedule</template>
+</category>
+<category>
+    <pattern>santosh sir tuesday schedule</pattern>
+    <template>tuesday schedule</template>
+</category>
+<category>
+    <pattern>santosh sir wednesday schedule</pattern>
+    <template>wednesday schedule</template>
+</category>
+<category>
+    <pattern>santosh sir thursday schedule</pattern>
+    <template>thursday schedule</template>
+</category>
+<category>
+    <pattern>santosh sir friday schedule</pattern>
+    <template>friday schedule</template>
+</category>
+<category>
+    <pattern>santosh sir saturday schedule</pattern>
+    <template>saturday schedule</template>
+</category>
+<category>
+    <pattern><set>csesantoshtoday</set></pattern>
+    <template><srai>santosh sir <date format="%A"/> schedule</srai></template>
+</category>
+<category>
+    <pattern><set>csesantoshcadbin</set></pattern>
+    <template>CSE Santosh sir cadbin is at MBA BLOCK 1st FLOOR</template>
+</category>
+
+<category>
+<pattern><set>4thsemcseschedule</set></pattern>
+<template>tell me on which day u want in <set name="topic">4th sem cse schedule</set></template>
+</category>
+<topic name="4th sem cse schedule">
+        <category>
+<pattern>today</pattern>
+<template><srai><date format="%A"/></srai></template>
+</category>
+    <category>
+<pattern>sunday</pattern>
+<template>holiday</template>
+</category>
+<category>
+<pattern>monday</pattern>
+<template>    <li>09:30-11:20 : AAc(TH) C-201</li><li>09:30-12:15 : DAA LAB CC-lab</li><li>12:15-02:05 : Adv. Prog in C Lab (CSE LAB-1)</li><li>12:15-01:10 : WT C-201</li><li>02:05-03:00 : SE CR-1 / BCD CR-2</li><li>03:00-04:50 : LSD-I C-214 / LSD-II C-204 / LSD-III C-211</li></template>
+</category>
+<category>
+<pattern>tuesday</pattern>
+<template>    <li>09:30-11:20 : CPL-2 (lang. Lab) / BUSSINESS COMUNICATION CR-3</li><li>09:30-11:20 : ITC CR-2 / CN CR-1</li><li>11:20-12:15 : DAA CR-2</li><li>12:15-02:05 : Adv. Prog in C Lab (CSE LAB-3) / Core JAVA LAB (CSE LAB-4)</li><li>02:05-04:50 : WT LAB / BE LAB(ECE LAb-4) / CCNA LAB (CSECLAB-4)</li></template>
+</category>
+<category>
+    <pattern>wednesday</pattern>
+    <template>    <li>09:30-10:25 : Core JAVA CR-1</li><li>10:25-01:10 : PD CONF.H / ITES Lang.Lab</li><li>11:20-01:10 : DMS CR-3 / CO CR-1</li><li>01:10-02:05 : ITC CR-2 / CN CR-1</li><li>02:05-04:50 : PYTHON (CSE LAB-1)</li></template>
+</category>
+
+<category>
+    <pattern>thursday</pattern>
+    <template><li>09:30-12:15 : PYTHON (CSEVLAB-1) / DEC LAB</li><li>12:15-01:10 : WT C-201 / DEC CR-2</li><li>01:10-02:05 : AAC C-211 / DAA CR-1</li><li>02:05-03:00 : IND. CH CR-3</li><li>03:00-04:50 : Core JAVA LAB (CR-1)</li></template>
+</category>
+
+<category>
+    <pattern>friday</pattern>
+    <template>
+        <li>09:30-11:20 : ECONOMICS C-204, AC and F C-201, HRM C-211, POM C-214, MM C-215, OB C-216</li><li>10:25-12:15 : SE CR-1, BCD CR-2</li><li>12:15-01:10 : WT C-201, DEC C-204</li><li>01:10-02:05 : Industrial Chemistry C-204</li><li>Adv.Prog.in C (cse lab-1)</li><li>02:05-03:00 : core java CR-1</li><li>03:00-04:50 : industrial chemistry lab, core java lab(cse lab-1)</li><li>02:05-04:50 : CCNA lab (cse lab-4)</li>
+    </template>
+</category>
+<category>
+    <pattern>saturday</pattern>
+    <template><li>09:30-12:15 : DAA LAB CC-lab</li><li>10:25-12:15 : AAC LAB</li><li>12:15-02:05 : Adv. Prog in C Lab (CSE LAB-3) / Core JAVA LAB (CSE LAB-4)</li><li>02:05-03:00 : DMS CR-3 / CO CR-1</li><li>03:00-04:50 : Be a contributor course</li></template>
+</category>
+</topic>
+<category>
+    <pattern>4th sem cse sunday schedule</pattern>
+    <template>HOLIDAY</template>
+</category>
+<category>
+    <pattern>4th sem cse monday schedule</pattern>
+    <template><li>09:30-11:20 : AAc(TH) C-201</li><li>09:30-12:15 : DAA LAB CC-lab</li><li>12:15-02:05 : Adv. Prog in C Lab (CSE LAB-1)</li><li>12:15-01:10 : WT C-201</li><li>02:05-03:00 : SE CR-1 / BCD CR-2</li><li>03:00-04:50 : LSD-I C-214 / LSD-II C-204 / LSD-III C-211</li></template>
+</category>
+<category>
+    <pattern>4th sem cse tuesday schedule</pattern>
+    <template><li>09:30-11:20 : CPL-2 (lang. Lab) / BUSSINESS COMUNICATION CR-3</li><li>09:30-11:20 : ITC CR-2 / CN CR-1</li><li>11:20-12:15 : DAA CR-2</li><li>12:15-02:05 : Adv. Prog in C Lab (CSE LAB-3) / Core JAVA LAB (CSE LAB-4)</li><li>02:05-04:50 : WT LAB / BE LAB(ECE LAb-4) / CCNA LAB (CSECLAB-4)</li></template>
+</category>
+<category>
+    <pattern>4th sem cse wednesday schedule</pattern>
+    <template><li>09:30-10:25 : Core JAVA CR-1</li><li>10:25-01:10 : PD CONF.H / ITES Lang.Lab</li><li>11:20-01:10 : DMS CR-3 / CO CR-1</li><li>01:10-02:05 : ITC CR-2 / CN CR-1</li><li>02:05-04:50 : PYTHON (CSE LAB-1)</li></template>
+</category>
+<category>
+    <pattern>4th sem cse thursday schedule</pattern>
+    <template><li>09:30-12:15 : PYTHON (CSEVLAB-1) / DEC LAB</li><li>12:15-01:10 : WT C-201 / DEC CR-2</li><li>01:10-02:05 : AAC C-211 / DAA CR-1</li><li>02:05-03:00 : IND. CH CR-3</li><li>03:00-04:50 : Core JAVA LAB (CR-1)</li></template>
+</category>
+<category>
+    <pattern>4th sem cse friday schedule</pattern>
+    <template><li>09:30-11:20 : ECONOMICS C-204, AC and F C-201, HRM C-211, POM C-214, MM C-215, OB C-216</li><li>10:25-12:15 : SE CR-1, BCD CR-2</li><li>12:15-01:10 : WT C-201, DEC C-204</li><li>01:10-02:05 : Industrial Chemistry C-204</li><li>Adv.Prog.in C (cse lab-1)</li><li>02:05-03:00 : core java CR-1</li><li>03:00-04:50 : industrial chemistry lab, core java lab(cse lab-1)</li><li>02:05-04:50 : CCNA lab (cse lab-4)</li></template>
+</category>
+<category>
+    <pattern>4th sem cse saturday schedule</pattern>
+    <template><li>09:30-12:15 : DAA LAB CC-lab</li><li>10:25-12:15 : AAC LAB</li><li>12:15-02:05 : Adv. Prog in C Lab (CSE LAB-3) / Core JAVA LAB (CSE LAB-4)</li><li>02:05-03:00 : DMS CR-3 / CO CR-1</li><li>03:00-04:50 : Be a contributor course</li></template>
+</category>
+<category>
+    <pattern><set>4thsemcsetoday</set></pattern>
+    <template><srai>4th sem cse <date format="%A"/> schedule</srai></template>
+</category>
+<category>
+    <pattern><set>4thsemcsett</set></pattern>
+    <template><img src="https://3.bp.blogspot.com/-Z94QbiONsVc/WoQtaC0BjFI/AAAAAAAAHaQ/jV1pcuOyrVU28aNYbJFI6HrvPD7VtvAEACLcBGAs/s320/csesem4.png"/></template>
+</category>
+
+
+<category>
+    <pattern><set>cselabs</set></pattern>
+    <template><li>CSE LAB-1 at 1st floor near CSE-HOD cadbin MBA block</li><li>CSE LAB-2 at 1st floor MBA block</li><li>CSE LAB-3 at ground floor near CR-! MBA block</li><li>CSE LAB-4 at 1st floor opposite to CR-3 MBA block</li></template>
+</category>
+
+<category>
+    <pattern><set>cselab1incharge</set></pattern>
+    <template>incharge name</template>
+</category>
+<category>
+    <pattern><set>cselab1infrastructure</set></pattern>
+    <template>infrastructure</template>
+</category>
+<category>
+    <pattern><set>cselab1location</set></pattern>
+    <template>CSE LAB1 is located at MBA block 1st floor near CSE-HOD cadbin</template>
+</category>
+<category>
+    <pattern><set>cselab1information</set></pattern>
+    <template><li>infrastructure : </li><li>location : near CSE-HOD cadbin at MBA BLOCK</li><li>incharge : </li></template>
+</category>
+
+</aiml>
